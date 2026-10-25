@@ -1,0 +1,30 @@
+{
+  "hazard-category": {
+    "samples": 565,
+    "recall": 0.9628318584070796,
+    "recall_seen_labels": 0.9628318584070796,
+    "unseen_samples": 0,
+    "mean_candidates": 1.0920353982300885
+  },
+  "product-category": {
+    "samples": 565,
+    "recall": 0.8778761061946903,
+    "recall_seen_labels": 0.8778761061946903,
+    "unseen_samples": 0,
+    "mean_candidates": 1.9486725663716815
+  },
+  "hazard": {
+    "samples": 565,
+    "recall": 0.815929203539823,
+    "recall_seen_labels": 0.815929203539823,
+    "unseen_samples": 0,
+    "mean_candidates": 3.145132743362832
+  },
+  "product": {
+    "samples": 565,
+    "recall": 0.0,
+    "recall_seen_labels": 0.0,
+    "unseen_samples": 49,
+    "mean_candidates": 4.794690265486726
+  }
+}

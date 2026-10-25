@@ -1,0 +1,122 @@
+{"id": "8", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "mixed salad"}
+{"id": "9", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "14", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "enteroviruses", "product": "mixed salad"}
+{"id": "39", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "other", "product": "mixed salad"}
+{"id": "53", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "peanuts and products thereof", "product": "mixed salad"}
+{"id": "56", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "62", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "bananas"}
+{"id": "93", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "95", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "99", "hazard-category": "packaging defect", "product-category": "alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "108", "hazard-category": "packaging defect", "product-category": "alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "109", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "115", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "130", "hazard-category": "chemical", "product-category": "seafood", "hazard": "toxin", "product": "canned crab meat in brine"}
+{"id": "140", "hazard-category": "chemical", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "mixed salad"}
+{"id": "147", "hazard-category": "chemical", "product-category": "fats and oils", "hazard": "chemical compound (high content)", "product": "mixed salad"}
+{"id": "155", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "moulds", "product": "mixed salad"}
+{"id": "157", "hazard-category": "biological", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "mixed salad"}
+{"id": "158", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "159", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "mixed salad"}
+{"id": "162", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "166", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "soybeans and products thereof", "product": "mixed salad"}
+{"id": "169", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "191", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "eggs and products thereof", "product": "lokoum"}
+{"id": "201", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "mixed salad"}
+{"id": "205", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "incorrect labeling", "product": "canned crab meat in brine"}
+{"id": "211", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "mixed salad"}
+{"id": "217", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "mixed salad"}
+{"id": "220", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "236", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "soybeans and products thereof", "product": "mixed salad"}
+{"id": "237", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "lokoum"}
+{"id": "240", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "escherichia coli", "product": "mixed salad"}
+{"id": "241", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "260", "hazard-category": "chemical", "product-category": "non-alcoholic beverages", "hazard": "chemical compound (high content)", "product": "mixed salad"}
+{"id": "265", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "walnut", "product": "mixed salad"}
+{"id": "276", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "293", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "mixed salad"}
+{"id": "294", "hazard-category": "foreign bodies", "product-category": "other food product / mixed", "hazard": "insects", "product": "mixed salad"}
+{"id": "298", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "305", "hazard-category": "biological", "product-category": "seafood", "hazard": "other", "product": "canned crab meat in brine"}
+{"id": "306", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "mixed salad"}
+{"id": "313", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "mixed salad"}
+{"id": "326", "hazard-category": "packaging defect", "product-category": "non-alcoholic beverages", "hazard": "processing", "product": "mixed salad"}
+{"id": "334", "hazard-category": "biological", "product-category": "seafood", "hazard": "other", "product": "canned crab meat in brine"}
+{"id": "338", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "lokoum"}
+{"id": "347", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "plastic fragment", "product": "canned crab meat in brine"}
+{"id": "350", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "352", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "eggs and products thereof", "product": "mixed salad"}
+{"id": "355", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "370", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "eggs and products thereof", "product": "mixed salad"}
+{"id": "373", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "metal fragment", "product": "lokoum"}
+{"id": "376", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "377", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "glass fragment", "product": "lokoum"}
+{"id": "384", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "mixed salad"}
+{"id": "405", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "mixed salad"}
+{"id": "408", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "other", "product": "mixed salad"}
+{"id": "430", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "cereals containing gluten and products thereof", "product": "canned crab meat in brine"}
+{"id": "432", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "mixed salad"}
+{"id": "433", "hazard-category": "chemical", "product-category": "prepared dishes and snacks", "hazard": "cereals containing gluten and products thereof", "product": "mixed salad"}
+{"id": "436", "hazard-category": "fraud", "product-category": "herbs and spices", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "460", "hazard-category": "foreign bodies", "product-category": "confectionery", "hazard": "glass fragment", "product": "mixed salad"}
+{"id": "467", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "481", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "497", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "510", "hazard-category": "fraud", "product-category": "soups, broths, sauces and condiments", "hazard": "peanuts and products thereof", "product": "mixed salad"}
+{"id": "549", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "lokoum"}
+{"id": "550", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "564", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "578", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "587", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "processing", "product": "mixed salad"}
+{"id": "598", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "canned crab meat in brine"}
+{"id": "610", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "mixed salad"}
+{"id": "611", "hazard-category": "fraud", "product-category": "ices and desserts", "hazard": "milk and products thereof", "product": "mixed salad"}
+{"id": "617", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "mixed salad"}
+{"id": "629", "hazard-category": "allergens", "product-category": "seafood", "hazard": "cereals containing gluten and products thereof", "product": "mixed salad"}
+{"id": "645", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "683", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "686", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "695", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "mixed salad"}
+{"id": "719", "hazard-category": "allergens", "product-category": "non-alcoholic beverages", "hazard": "soybeans and products thereof", "product": "mixed salad"}
+{"id": "739", "hazard-category": "chemical", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "757", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "759", "hazard-category": "food additives and flavourings", "product-category": "confectionery", "hazard": "other", "product": "lokoum"}
+{"id": "764", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "804", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "806", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "mixed salad"}
+{"id": "810", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "811", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "818", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "824", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "incorrect labeling", "product": "mixed salad"}
+{"id": "826", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "841", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "lokoum"}
+{"id": "852", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "peanuts and products thereof", "product": "lokoum"}
+{"id": "853", "hazard-category": "organoleptic aspects", "product-category": "alcoholic beverages", "hazard": "other", "product": "mixed salad"}
+{"id": "868", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "milk and products thereof", "product": "mixed salad"}
+{"id": "877", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "878", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "903", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "mixed salad"}
+{"id": "907", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "912", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "mixed salad"}
+{"id": "913", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "mixed salad"}
+{"id": "916", "hazard-category": "foreign bodies", "product-category": "alcoholic beverages", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "918", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "lokoum"}
+{"id": "930", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "931", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "lokoum"}
+{"id": "936", "hazard-category": "foreign bodies", "product-category": "ices and desserts", "hazard": "other", "product": "lokoum"}
+{"id": "949", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "sulphur dioxide and sulphites", "product": "mixed salad"}
+{"id": "963", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "997", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "mixed salad"}
+{"id": "1014", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "mixed salad"}
+{"id": "1027", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "bacillus spp.", "product": "ground turmeric"}
+{"id": "1029", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "1039", "hazard-category": "foreign bodies", "product-category": "ices and desserts", "hazard": "metal fragment", "product": "mixed salad"}
+{"id": "1059", "hazard-category": "chemical", "product-category": "meat, egg and dairy products", "hazard": "staphylococcus", "product": "mixed salad"}
+{"id": "1070", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "glass fragment", "product": "mixed salad"}
+{"id": "1090", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "mixed salad"}
+{"id": "1110", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "lokoum"}
+{"id": "1111", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "mixed salad"}
+{"id": "1115", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1121", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "other", "product": "mixed salad"}
+{"id": "1167", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "mixed salad"}
+{"id": "1175", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "mixed salad"}

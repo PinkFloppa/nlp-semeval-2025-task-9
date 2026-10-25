@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.0,
+    "max_output_tokens": 128,
+    "max_text_chars": 50000,
+    "requests_per_minute": 10,
+    "max_retries": 4,
+    "fuzzy_threshold": 0.9,
+    "thinking_budget": null,
+    "thinking_level": "minimal"
+  },
+  "new_api_calls": 491,
+  "completed_samples": 122,
+  "requested_samples": 565,
+  "parse_methods": {
+    "exact": 468,
+    "bert_fallback": 20,
+    "fuzzy": 3
+  },
+  "usage_for_selected_predictions": {
+    "promptTokenCount": 247207,
+    "candidatesTokenCount": 1498,
+    "totalTokenCount": 248705
+  },
+  "candidate_fingerprint": "7a56d09d1356cfd5dea2e4f5d0d74533975e727cdd675c129ad8a3dc00a1c88e"
+}

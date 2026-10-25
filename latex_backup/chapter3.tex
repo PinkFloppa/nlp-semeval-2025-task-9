@@ -1,0 +1,83 @@
+\begin{comment}
+\section{Vyhodnocovacie metriky a metodológia}
+
+In order to evaluate our baseline solution, we will be using the same scoring process that was used for evaluating participant's submission in the challenge for both ST1 and ST2 \cite{randl-etal-2025-semeval}. The score is mainly based on macro F1, which was chosen due to the previously mentioned class imbalance inside of the dataset, ensuring that the score is not dominated by the most frequent labels. The following equations describe how the score for each task is calculated.
+
+First the macro F1 score for hazard is computed using Equation~\ref{eq:macro_f1}. Here, $\mathrm{RCL}_i$ and $\mathrm{PRC}_i$ are the recall and precision of class $i$, and $n$ is the total number of classes.
+
+\begin{equation}
+  F_1(y, \hat{y}) = \frac{2}{n} \sum_{i=1}^{n} \frac{\mathrm{RCL}_i(y, \hat{y}) \cdot \mathrm{PRC}_i(y, \hat{y})}{\mathrm{RCL}_i(y, \hat{y}) + \mathrm{PRC}_i(y, \hat{y})}
+  \label{eq:macro_f1}
+\end{equation}
+
+%Where $RCL_c$ is the recall and $PRC_c$ is the precision for a specific class $i$, with $n$ being the total number of classes. 
+
+Then the dataset is filtered, keeping only the samples where the hazard was correctly predicted. This operation is mathematically described by Equation~\ref{eq:product_subset}. Here, $y^h$ and $y^p$ are the true hazard and product labels, $\hat{y}^h$ and $\hat{y}^p$ the predicted ones, and $m$ is the number of samples; $\hat{y}^{p|h}$ is defined analogously.
+
+\begin{equation}
+  y^{p|h} = \left\{ y^p_j \;\middle|\; \hat{y}^h_j = y^h_j \right\}, \quad j \in \{1, 2, \dots, m\}
+  \label{eq:product_subset}
+\end{equation}
+
+Equation~\ref{eq:macro_f1} is then applied to the filtered dataset in order to produce the macro F1 score for product. The final task score is then calculated as the average of the macro F1 scores for the hazard and the product (Equation~\ref{eq:task_score}).
+
+\begin{equation}
+  S(Y, \hat{Y}) = \frac{F_1(y^h, \hat{y}^h) + F_1(y^{p|h}, \hat{y}^{p|h})}{2}
+  \label{eq:task_score}
+\end{equation}
+
+The scoring process is done separately for ST1 and ST2. In ST1, the hazard and product categories are used, while ST2 uses the exact hazard and product.
+
+\subsection{Metodológia}
+
+The main focus of the baseline will be the creation of a reproducible solution that incorporates features of the previously highlighted systems while still remaining lightweight, so that it can be potentially expanded upon in the second part of this project. The resulting score of this solution will then be compared against the systems which form the official ranking, to see which place it would obtain for each sub-task.
+
+For our baseline solution we will be using the official dataset published on Zenodo \cite{randl_2025_15007331}, while also using the official train/validation/test splits provided by the organizers of the challenge. The sizes of these subsets are:
+
+\begin{itemize}
+    \item Training -- 5 082 ($\sim$76,5\%)
+    \item Validation -- 565 ($\sim$8,5\%)
+    \item Test -- 997 ($\sim$15,0\%)
+\end{itemize}
+\end{comment}
+
+\section{Vyhodnocovacie metriky a metodológia}
+
+Na vyhodnotenie nášho baseline riešenia bude použitý rovnaký proces hodnotenia, aký bol v súťaži použitý na vyhodnotenie riešení odovzdaných účastníkmi, a to pre ST1 aj ST2 \cite{randl-etal-2025-semeval}. Skóre je založené predovšetkým na metrike macro F1, ktorá bola zvolená z dôvodu už spomenutej nevyváženosti tried v datasete, čím je zabezpečené, že skóre nie je ovplyvňované najmä najfrekventovanejšími označeniami (labels). Nasledujúce rovnice opisujú, ako je vypočítané skóre pre každú z podúloh.
+
+Najprv je pomocou rovnice~\ref{eq:macro_f1} vypočítané skóre macro F1 pre hazard. Tu $\mathrm{RCL}_i$ a $\mathrm{PRC}_i$ predstavujú recall a precision triedy $i$ a $n$ je celkový počet tried.
+
+\begin{equation}
+  F_1(y, \hat{y}) = \frac{2}{n} \sum_{i=1}^{n} \frac{\mathrm{RCL}_i(y, \hat{y}) \cdot \mathrm{PRC}_i(y, \hat{y})}{\mathrm{RCL}_i(y, \hat{y}) + \mathrm{PRC}_i(y, \hat{y})}
+  \label{eq:macro_f1}
+\end{equation}
+
+%Kde $RCL_c$ je recall a $PRC_c$ je precision pre konkrétnu triedu $i$, pričom $n$ je celkový počet tried.
+
+Následne je dataset prefiltrovaný, pričom sú ponechané iba vzorky, pri ktorých bol hazard predikovaný správne. Táto operácia je matematicky opísaná rovnicou~\ref{eq:product_subset}. Tu $y^h$ a $y^p$ predstavujú skutočné označenia hazardu a produktu, $\hat{y}^h$ a $\hat{y}^p$ predikované označenia a $m$ je počet vzoriek. $\hat{y}^{p|h}$ je definované analogicky.
+
+\begin{equation}
+  y^{p|h} = \left\{ y^p_j \;\middle|\; \hat{y}^h_j = y^h_j \right\}, \quad j \in \{1, 2, \dots, m\}
+  \label{eq:product_subset}
+\end{equation}
+
+Na prefiltrovaný dataset je následne aplikovaná rovnica~\ref{eq:macro_f1}, čím je získané skóre macro F1 pre produkt. Výsledné skóre úlohy je potom vypočítané ako priemer skóre macro F1 pre hazard a produkt (rovnica~\ref{eq:task_score}).
+
+\begin{equation}
+  S(Y, \hat{Y}) = \frac{F_1(y^h, \hat{y}^h) + F_1(y^{p|h}, \hat{y}^{p|h})}{2}
+  \label{eq:task_score}
+\end{equation}
+
+Proces hodnotenia je vykonávaný samostatne pre ST1 a ST2. V ST1 sú použité kategórie hazardu a produktu, zatiaľ čo v ST2 sú použité konkrétne hazardy a produkty.
+
+\subsection{Metodológia}
+
+Hlavným cieľom baseline riešenia bude vytvorenie reprodukovateľného riešenia, ktoré bude zahŕňať prvky spomenutých systémov a zároveň zostane výpočtovo nenáročné, aby ho bolo možné v druhej časti tohto projektu ďalej rozšíriť. Výsledné skóre tohto riešenia bude následne porovnané so ostatnými referenčnými riešeniami a taktiež systémami, ktoré tvoria oficiálny rebríček, aby bolo možné určiť, na ktorom mieste by sa v jednotlivých podúlohách umiestnilo.
+
+Pre naše baseline riešenie bude použitý oficiálny dataset zverejnený na platforme Zenodo \cite{randl_2025_15007331}, pričom budú použité aj oficiálne rozdelenia na trénovaciu, validačnú a testovaciu množinu poskytnuté organizátormi súťaže. Veľkosti týchto podmnožín sú:
+
+\begin{itemize}
+    \item Trénovacia množina -- 5\,082 ($\sim$76,5~\%)
+    \item Validačná množina -- 565 ($\sim$8,5~\%)
+    \item Testovacia množina -- 997 ($\sim$15,0~\%)
+\end{itemize}

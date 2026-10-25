@@ -1,0 +1,565 @@
+{"id": "8", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "9", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "14", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "39", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "53", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "56", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "62", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "93", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "95", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "99", "hazard-category": "biological", "product-category": "alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "108", "hazard-category": "packaging defect", "product-category": "alcoholic beverages", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "109", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "115", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "130", "hazard-category": "chemical", "product-category": "seafood", "hazard": "other", "product": "ground turmeric"}
+{"id": "140", "hazard-category": "chemical", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "147", "hazard-category": "chemical", "product-category": "fats and oils", "hazard": "other", "product": "ground turmeric"}
+{"id": "155", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "moulds", "product": "ground turmeric"}
+{"id": "157", "hazard-category": "biological", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "158", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "159", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "162", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "166", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "169", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "191", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "201", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "205", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "211", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "217", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "220", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "236", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "237", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "240", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "241", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "260", "hazard-category": "chemical", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "265", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "almond", "product": "ground turmeric"}
+{"id": "276", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "293", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "294", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "other", "product": "ground turmeric"}
+{"id": "298", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "305", "hazard-category": "biological", "product-category": "seafood", "hazard": "other", "product": "ground turmeric"}
+{"id": "306", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "313", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "326", "hazard-category": "packaging defect", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "334", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "other", "product": "ground turmeric"}
+{"id": "338", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "347", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "350", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "352", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "355", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "370", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "373", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "376", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "377", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "384", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "405", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "408", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "430", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "432", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "433", "hazard-category": "chemical", "product-category": "prepared dishes and snacks", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "436", "hazard-category": "fraud", "product-category": "herbs and spices", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "460", "hazard-category": "foreign bodies", "product-category": "confectionery", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "467", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "481", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "497", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "510", "hazard-category": "fraud", "product-category": "soups, broths, sauces and condiments", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "549", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "550", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "564", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "578", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "587", "hazard-category": "biological", "product-category": "seafood", "hazard": "other", "product": "ground turmeric"}
+{"id": "598", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "610", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "611", "hazard-category": "fraud", "product-category": "ices and desserts", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "617", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "629", "hazard-category": "allergens", "product-category": "seafood", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "645", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "683", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "686", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "695", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "719", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "739", "hazard-category": "chemical", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "757", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "other", "product": "ground turmeric"}
+{"id": "759", "hazard-category": "food additives and flavourings", "product-category": "confectionery", "hazard": "other", "product": "ground turmeric"}
+{"id": "764", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "804", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "806", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "810", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "811", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "818", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "824", "hazard-category": "fraud", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "826", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "841", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "852", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "853", "hazard-category": "organoleptic aspects", "product-category": "alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "868", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "877", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "878", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "903", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "907", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "912", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "913", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "916", "hazard-category": "foreign bodies", "product-category": "alcoholic beverages", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "918", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "930", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "931", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "936", "hazard-category": "foreign bodies", "product-category": "ices and desserts", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "949", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "963", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "997", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1014", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "1027", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1029", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1039", "hazard-category": "foreign bodies", "product-category": "ices and desserts", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "1059", "hazard-category": "chemical", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1070", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "1090", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "1110", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1111", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "1115", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1121", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "almond", "product": "ground turmeric"}
+{"id": "1167", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1175", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1178", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1191", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1193", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1194", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1196", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1211", "hazard-category": "biological", "product-category": "confectionery", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1220", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1236", "hazard-category": "fraud", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1240", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "1253", "hazard-category": "chemical", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "other", "product": "ground turmeric"}
+{"id": "1255", "hazard-category": "fraud", "product-category": "prepared dishes and snacks", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1292", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "1321", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "1348", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1349", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1354", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "1393", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "1399", "hazard-category": "allergens", "product-category": "herbs and spices", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "1400", "hazard-category": "allergens", "product-category": "herbs and spices", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "1426", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1440", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "1450", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1464", "hazard-category": "chemical", "product-category": "seafood", "hazard": "other", "product": "ground turmeric"}
+{"id": "1468", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "almond", "product": "ground turmeric"}
+{"id": "1502", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1506", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1519", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "sesame seeds and products thereof", "product": "ground turmeric"}
+{"id": "1520", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "1522", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1524", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "1532", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1545", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1550", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "1573", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "1581", "hazard-category": "allergens", "product-category": "non-alcoholic beverages", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1586", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "1597", "hazard-category": "allergens", "product-category": "non-alcoholic beverages", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1598", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "moulds", "product": "ground turmeric"}
+{"id": "1623", "hazard-category": "organoleptic aspects", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "1627", "hazard-category": "foreign bodies", "product-category": "confectionery", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "1642", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1661", "hazard-category": "biological", "product-category": "seafood", "hazard": "clostridium botulinum", "product": "ground turmeric"}
+{"id": "1667", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "1685", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "1687", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "1691", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "1712", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "1719", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "1741", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1748", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "1753", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1772", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1774", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "1776", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "1780", "hazard-category": "chemical", "product-category": "fats and oils", "hazard": "other", "product": "ground turmeric"}
+{"id": "1859", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "1877", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1882", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "1892", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "1893", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "1903", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "1972", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "1978", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2046", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "2058", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2061", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2066", "hazard-category": "fraud", "product-category": "fruits and vegetables", "hazard": "other", "product": "ground turmeric"}
+{"id": "2111", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2112", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2125", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2138", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2139", "hazard-category": "organoleptic aspects", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "2141", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2185", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2187", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "2194", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2197", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2214", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "2219", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2221", "hazard-category": "fraud", "product-category": "prepared dishes and snacks", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "2222", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2257", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2262", "hazard-category": "allergens", "product-category": "herbs and spices", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "2272", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2287", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2288", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "almond", "product": "ground turmeric"}
+{"id": "2295", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2297", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2307", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2314", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2324", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "2329", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2367", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2403", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "2436", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2441", "hazard-category": "biological", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2448", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2462", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2477", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2478", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2494", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "2518", "hazard-category": "biological", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2524", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2533", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2541", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "2546", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "2549", "hazard-category": "fraud", "product-category": "seafood", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "2551", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2553", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2559", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2566", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "2603", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "2614", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "2625", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "2626", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2634", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "2640", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2670", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2673", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "2674", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "2685", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2686", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2695", "hazard-category": "biological", "product-category": "confectionery", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "2700", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2726", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "almond", "product": "ground turmeric"}
+{"id": "2758", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "clostridium botulinum", "product": "ground turmeric"}
+{"id": "2808", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2810", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "2813", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "2815", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2820", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "2829", "hazard-category": "food additives and flavourings", "product-category": "nuts, nut products and seeds", "hazard": "other", "product": "ground turmeric"}
+{"id": "2846", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "2858", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "2862", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "2864", "hazard-category": "biological", "product-category": "seafood", "hazard": "clostridium botulinum", "product": "ground turmeric"}
+{"id": "2872", "hazard-category": "allergens", "product-category": "non-alcoholic beverages", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2883", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "almond", "product": "ground turmeric"}
+{"id": "2904", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "2909", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "sesame seeds and products thereof", "product": "ground turmeric"}
+{"id": "2922", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2967", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "almond", "product": "ground turmeric"}
+{"id": "2968", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "2970", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2989", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "2992", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "2998", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3002", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "3022", "hazard-category": "chemical", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "3026", "hazard-category": "chemical", "product-category": "seafood", "hazard": "other", "product": "ground turmeric"}
+{"id": "3034", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "3052", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3060", "hazard-category": "biological", "product-category": "ices and desserts", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3073", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3074", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3076", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3080", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3081", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3088", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "3100", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3139", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3183", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "3191", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3193", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "3199", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "3208", "hazard-category": "allergens", "product-category": "herbs and spices", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "3213", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "3217", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "3239", "hazard-category": "other hazard", "product-category": "meat, egg and dairy products", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "3244", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3254", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "3256", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "3258", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "3278", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "3292", "hazard-category": "allergens", "product-category": "alcoholic beverages", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "3305", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "3316", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "3334", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "3344", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "3362", "hazard-category": "biological", "product-category": "confectionery", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3364", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "sesame seeds and products thereof", "product": "ground turmeric"}
+{"id": "3440", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3444", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "3475", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "3478", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "almond", "product": "ground turmeric"}
+{"id": "3486", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "3567", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "3588", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "almond", "product": "ground turmeric"}
+{"id": "3590", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "3594", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3638", "hazard-category": "allergens", "product-category": "herbs and spices", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "3644", "hazard-category": "foreign bodies", "product-category": "confectionery", "hazard": "other", "product": "ground turmeric"}
+{"id": "3647", "hazard-category": "organoleptic aspects", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "3676", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3682", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "insects", "product": "ground turmeric"}
+{"id": "3717", "hazard-category": "chemical", "product-category": "fruits and vegetables", "hazard": "heavy metals", "product": "ground turmeric"}
+{"id": "3723", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3735", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "3786", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3798", "hazard-category": "other hazard", "product-category": "cereals and bakery products", "hazard": "other", "product": "ground turmeric"}
+{"id": "3832", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "3833", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "3848", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "3868", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3869", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "3883", "hazard-category": "foreign bodies", "product-category": "fats and oils", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "3911", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "3913", "hazard-category": "packaging defect", "product-category": "non-alcoholic beverages", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "3914", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "3925", "hazard-category": "biological", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3942", "hazard-category": "food additives and flavourings", "product-category": "herbs and spices", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "3956", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "3973", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "3978", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "3979", "hazard-category": "organoleptic aspects", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "3984", "hazard-category": "foreign bodies", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "4002", "hazard-category": "fraud", "product-category": "prepared dishes and snacks", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "4019", "hazard-category": "allergens", "product-category": "alcoholic beverages", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4027", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "4036", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4037", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "4048", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "4065", "hazard-category": "fraud", "product-category": "fruits and vegetables", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "4080", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "4098", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "4124", "hazard-category": "foreign bodies", "product-category": "seafood", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "4144", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4145", "hazard-category": "chemical", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "other", "product": "ground turmeric"}
+{"id": "4179", "hazard-category": "fraud", "product-category": "non-alcoholic beverages", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "4183", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4193", "hazard-category": "organoleptic aspects", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "4196", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "4200", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "almond", "product": "ground turmeric"}
+{"id": "4203", "hazard-category": "allergens", "product-category": "seafood", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "4205", "hazard-category": "fraud", "product-category": "prepared dishes and snacks", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "4236", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "4246", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "insects", "product": "ground turmeric"}
+{"id": "4253", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4260", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4266", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4270", "hazard-category": "organoleptic aspects", "product-category": "soups, broths, sauces and condiments", "hazard": "other", "product": "ground turmeric"}
+{"id": "4273", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "almond", "product": "ground turmeric"}
+{"id": "4295", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "clostridium botulinum", "product": "ground turmeric"}
+{"id": "4297", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4312", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4326", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4327", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4330", "hazard-category": "biological", "product-category": "non-alcoholic beverages", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "4400", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4419", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4458", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4491", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4500", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "4522", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "4557", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "4558", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "4560", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "4595", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4603", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4617", "hazard-category": "fraud", "product-category": "seafood", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "4648", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "4649", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "4657", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4674", "hazard-category": "foreign bodies", "product-category": "non-alcoholic beverages", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "4677", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4688", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "4697", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "4703", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4714", "hazard-category": "fraud", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4746", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "4751", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4776", "hazard-category": "allergens", "product-category": "seafood", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "4784", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "4803", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "4805", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4822", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "4853", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "4879", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "4881", "hazard-category": "chemical", "product-category": "non-alcoholic beverages", "hazard": "heavy metals", "product": "ground turmeric"}
+{"id": "4893", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "4904", "hazard-category": "packaging defect", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "4905", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "4909", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "4936", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "4944", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4954", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "4980", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "5023", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "5038", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "5043", "hazard-category": "allergens", "product-category": "non-alcoholic beverages", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5052", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "5079", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5097", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "5099", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "5103", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5105", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5124", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "5131", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5137", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "5141", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "5162", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "5177", "hazard-category": "foreign bodies", "product-category": "prepared dishes and snacks", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "5197", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "5221", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "5238", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5253", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "5265", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "5280", "hazard-category": "organoleptic aspects", "product-category": "ices and desserts", "hazard": "other", "product": "ground turmeric"}
+{"id": "5306", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5312", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5317", "hazard-category": "chemical", "product-category": "cereals and bakery products", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "5352", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "5387", "hazard-category": "chemical", "product-category": "fruits and vegetables", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "5404", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "5411", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5413", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "5416", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5425", "hazard-category": "chemical", "product-category": "nuts, nut products and seeds", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "5445", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "5461", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "5498", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "5507", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5555", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "5557", "hazard-category": "biological", "product-category": "seafood", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "5575", "hazard-category": "allergens", "product-category": "non-alcoholic beverages", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "5577", "hazard-category": "fraud", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "5579", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5597", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "5609", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "almond", "product": "ground turmeric"}
+{"id": "5622", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "5627", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5640", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "5645", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "5656", "hazard-category": "allergens", "product-category": "seafood", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5663", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5666", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5682", "hazard-category": "chemical", "product-category": "non-alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "5694", "hazard-category": "fraud", "product-category": "prepared dishes and snacks", "hazard": "other", "product": "ground turmeric"}
+{"id": "5701", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "5704", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "5717", "hazard-category": "fraud", "product-category": "cereals and bakery products", "hazard": "inspection issues", "product": "ground turmeric"}
+{"id": "5723", "hazard-category": "allergens", "product-category": "seafood", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5724", "hazard-category": "packaging defect", "product-category": "seafood", "hazard": "other", "product": "ground turmeric"}
+{"id": "5729", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5731", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5754", "hazard-category": "fraud", "product-category": "cereals and bakery products", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "5756", "hazard-category": "biological", "product-category": "soups, broths, sauces and condiments", "hazard": "moulds", "product": "ground turmeric"}
+{"id": "5783", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "other", "product": "ground turmeric"}
+{"id": "5829", "hazard-category": "allergens", "product-category": "seafood", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "5850", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "5865", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "5910", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5958", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "5996", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "other", "product": "ground turmeric"}
+{"id": "6002", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6008", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6010", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "6020", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "6041", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "6074", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6096", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "6098", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "eggs and products thereof", "product": "ground turmeric"}
+{"id": "6102", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "6107", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "metal fragment", "product": "ground turmeric"}
+{"id": "6111", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "clostridium botulinum", "product": "ground turmeric"}
+{"id": "6157", "hazard-category": "other hazard", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "other", "product": "ground turmeric"}
+{"id": "6208", "hazard-category": "biological", "product-category": "seafood", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6216", "hazard-category": "fraud", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide", "product": "ground turmeric"}
+{"id": "6218", "hazard-category": "packaging defect", "product-category": "herbs and spices", "hazard": "other", "product": "ground turmeric"}
+{"id": "6233", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6290", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6295", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6376", "hazard-category": "foreign bodies", "product-category": "meat, egg and dairy products", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "6388", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6390", "hazard-category": "chemical", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "6428", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6461", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "sesame seeds and products thereof", "product": "ground turmeric"}
+{"id": "6483", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6500", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "almond", "product": "ground turmeric"}
+{"id": "6502", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "6511", "hazard-category": "allergens", "product-category": "nuts, nut products and seeds", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "6518", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6521", "hazard-category": "allergens", "product-category": "soups, broths, sauces and condiments", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "6548", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "6564", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6580", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "sesame seeds and products thereof", "product": "ground turmeric"}
+{"id": "6605", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6614", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "6619", "hazard-category": "other hazard", "product-category": "fruits and vegetables", "hazard": "other", "product": "ground turmeric"}
+{"id": "6625", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "6673", "hazard-category": "biological", "product-category": "seafood", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "6678", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6691", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6719", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "other", "product": "ground turmeric"}
+{"id": "6732", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6763", "hazard-category": "chemical", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "other", "product": "ground turmeric"}
+{"id": "6764", "hazard-category": "fraud", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "6788", "hazard-category": "biological", "product-category": "herbs and spices", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "6832", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "6839", "hazard-category": "fraud", "product-category": "other food product / mixed", "hazard": "sulphur dioxide", "product": "ground turmeric"}
+{"id": "6877", "hazard-category": "foreign bodies", "product-category": "soups, broths, sauces and condiments", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "6887", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "6907", "hazard-category": "chemical", "product-category": "ices and desserts", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "6910", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "6960", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6964", "hazard-category": "biological", "product-category": "other food product / mixed", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "6974", "hazard-category": "other hazard", "product-category": "prepared dishes and snacks", "hazard": "other", "product": "ground turmeric"}
+{"id": "7007", "hazard-category": "allergens", "product-category": "herbs and spices", "hazard": "mustard and products thereof", "product": "ground turmeric"}
+{"id": "7019", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7028", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "other", "product": "ground turmeric"}
+{"id": "7031", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "7049", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "7065", "hazard-category": "foreign bodies", "product-category": "fruits and vegetables", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "7083", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7103", "hazard-category": "chemical", "product-category": "other food product / mixed", "hazard": "too high content of tetrahydrocannabinol (THC)", "product": "ground turmeric"}
+{"id": "7105", "hazard-category": "chemical", "product-category": "fruits and vegetables", "hazard": "heavy metals", "product": "ground turmeric"}
+{"id": "7122", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7137", "hazard-category": "allergens", "product-category": "prepared dishes and snacks", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "7142", "hazard-category": "biological", "product-category": "fruits and vegetables", "hazard": "listeria monocytogenes", "product": "ground turmeric"}
+{"id": "7143", "hazard-category": "fraud", "product-category": "herbs and spices", "hazard": "other", "product": "ground turmeric"}
+{"id": "7144", "hazard-category": "allergens", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "7158", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7191", "hazard-category": "foreign bodies", "product-category": "seafood", "hazard": "glass fragment", "product": "ground turmeric"}
+{"id": "7197", "hazard-category": "biological", "product-category": "cereals and bakery products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7199", "hazard-category": "other hazard", "product-category": "alcoholic beverages", "hazard": "other", "product": "ground turmeric"}
+{"id": "7216", "hazard-category": "chemical", "product-category": "fruits and vegetables", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "7232", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7234", "hazard-category": "allergens", "product-category": "meat, egg and dairy products", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "7236", "hazard-category": "biological", "product-category": "meat, egg and dairy products", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7245", "hazard-category": "biological", "product-category": "cocoa and cocoa preparations, coffee and tea", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7249", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "sulphur dioxide and sulphites", "product": "ground turmeric"}
+{"id": "7251", "hazard-category": "biological", "product-category": "nuts, nut products and seeds", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7317", "hazard-category": "allergens", "product-category": "ices and desserts", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "7323", "hazard-category": "allergens", "product-category": "seafood", "hazard": "cereals containing gluten and products thereof", "product": "ground turmeric"}
+{"id": "7378", "hazard-category": "biological", "product-category": "prepared dishes and snacks", "hazard": "salmonella", "product": "ground turmeric"}
+{"id": "7380", "hazard-category": "chemical", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "other", "product": "ground turmeric"}
+{"id": "7410", "hazard-category": "biological", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "escherichia coli", "product": "ground turmeric"}
+{"id": "7428", "hazard-category": "chemical", "product-category": "ices and desserts", "hazard": "unauthorised substance ethylene oxide", "product": "ground turmeric"}
+{"id": "7448", "hazard-category": "allergens", "product-category": "fruits and vegetables", "hazard": "soybeans and products thereof", "product": "ground turmeric"}
+{"id": "7492", "hazard-category": "allergens", "product-category": "dietetic foods, food supplements, fortified foods", "hazard": "milk and products thereof", "product": "ground turmeric"}
+{"id": "7504", "hazard-category": "foreign bodies", "product-category": "cereals and bakery products", "hazard": "plastic fragment", "product": "ground turmeric"}
+{"id": "7523", "hazard-category": "allergens", "product-category": "cereals and bakery products", "hazard": "peanuts and products thereof", "product": "ground turmeric"}
+{"id": "7524", "hazard-category": "allergens", "product-category": "confectionery", "hazard": "almond", "product": "ground turmeric"}

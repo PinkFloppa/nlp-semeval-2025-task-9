@@ -1,0 +1,321 @@
+{
+  "split": "validation",
+  "total_samples": 565,
+  "published_results": {
+    "source": "Randl et al. (2025): SemEval-2025 Task 9: The Food Hazard Detection Challenge",
+    "url": "https://aclanthology.org/2025.semeval-1.325/",
+    "local_pdf": "sources/SemEval_2025_Report.pdf",
+    "location": "Tables 2 and 3, PDF page 5 (proceedings page 2527)",
+    "split": "test",
+    "systems": [
+      {
+        "system": "TF-IDF + LR (baseline organizatorov)",
+        "ST1": 0.498,
+        "ST2": 0.183
+      },
+      {
+        "system": "BERT (baseline organizatorov)",
+        "ST1": 0.667,
+        "ST2": 0.165
+      },
+      {
+        "system": "Anastasia",
+        "ST1": 0.8223,
+        "ST2": 0.1281
+      },
+      {
+        "system": "MyMy",
+        "ST1": 0.8112,
+        "ST2": 0.5278
+      },
+      {
+        "system": "SRCB",
+        "ST1": 0.8039,
+        "ST2": 0.5473
+      },
+      {
+        "system": "PATeam",
+        "ST1": 0.8017,
+        "ST2": 0.5266
+      }
+    ]
+  },
+  "bert": {
+    "samples": 565,
+    "total_samples": 565,
+    "targets": {
+      "hazard-category": {
+        "correct": 540,
+        "samples": 565,
+        "accuracy": 0.9557522123893806,
+        "macro_f1": 0.8642189377386746,
+        "macro_recall": 0.8662478862770029,
+        "macro_precision": 0.8751639511923437,
+        "distinct_predictions": 9,
+        "most_common_prediction": "allergens"
+      },
+      "product-category": {
+        "correct": 438,
+        "samples": 565,
+        "accuracy": 0.7752212389380531,
+        "macro_f1": 0.6724054199843752,
+        "macro_recall": 0.656573824383846,
+        "macro_precision": 0.7196990572199637,
+        "distinct_predictions": 16,
+        "most_common_prediction": "meat, egg and dairy products"
+      },
+      "hazard": {
+        "correct": 419,
+        "samples": 565,
+        "accuracy": 0.7415929203539823,
+        "macro_f1": 0.20505921913958125,
+        "macro_recall": 0.22934586945383778,
+        "macro_precision": 0.19059236579499714,
+        "distinct_predictions": 24,
+        "most_common_prediction": "listeria monocytogenes"
+      },
+      "product": {
+        "correct": 0,
+        "samples": 565,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "macro_recall": 0.0,
+        "macro_precision": 0.0,
+        "distinct_predictions": 1,
+        "most_common_prediction": "ground turmeric"
+      }
+    },
+    "ST1": {
+      "score": 0.789680479637889,
+      "hazard_macro_f1": 0.8642189377386746,
+      "product_macro_f1_given_correct_hazard": 0.7151420215371034,
+      "correct_hazard_samples": 540,
+      "samples": 565
+    },
+    "ST2": {
+      "score": 0.10252960956979063,
+      "hazard_macro_f1": 0.20505921913958125,
+      "product_macro_f1_given_correct_hazard": 0.0,
+      "correct_hazard_samples": 419,
+      "samples": 565
+    },
+    "all_four_correct": 0
+  },
+  "gemini": {
+    "samples": 122,
+    "total_samples": 565,
+    "targets": {
+      "hazard-category": {
+        "correct": 114,
+        "samples": 122,
+        "accuracy": 0.9344262295081968,
+        "macro_f1": 0.8248166333272717,
+        "macro_recall": 0.8153776877181133,
+        "macro_precision": 0.8814551287955543,
+        "distinct_predictions": 9,
+        "most_common_prediction": "biological"
+      },
+      "product-category": {
+        "correct": 108,
+        "samples": 122,
+        "accuracy": 0.8852459016393442,
+        "macro_f1": 0.8096308564783204,
+        "macro_recall": 0.8392592592592594,
+        "macro_precision": 0.8050155400155401,
+        "distinct_predictions": 15,
+        "most_common_prediction": "meat, egg and dairy products"
+      },
+      "hazard": {
+        "correct": 90,
+        "samples": 122,
+        "accuracy": 0.7377049180327869,
+        "macro_f1": 0.3571410810701092,
+        "macro_recall": 0.39266304347826086,
+        "macro_precision": 0.35033212560386473,
+        "distinct_predictions": 24,
+        "most_common_prediction": "listeria monocytogenes"
+      },
+      "product": {
+        "correct": 0,
+        "samples": 122,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "macro_recall": 0.0,
+        "macro_precision": 0.0,
+        "distinct_predictions": 5,
+        "most_common_prediction": "mixed salad"
+      }
+    },
+    "ST1": {
+      "score": 0.8132644259751228,
+      "hazard_macro_f1": 0.8248166333272717,
+      "product_macro_f1_given_correct_hazard": 0.8017122186229739,
+      "correct_hazard_samples": 114,
+      "samples": 122
+    },
+    "ST2": {
+      "score": 0.1785705405350546,
+      "hazard_macro_f1": 0.3571410810701092,
+      "product_macro_f1_given_correct_hazard": 0.0,
+      "correct_hazard_samples": 90,
+      "samples": 122
+    },
+    "all_four_correct": 0
+  },
+  "paired_bert": {
+    "samples": 122,
+    "total_samples": 565,
+    "targets": {
+      "hazard-category": {
+        "correct": 114,
+        "samples": 122,
+        "accuracy": 0.9344262295081968,
+        "macro_f1": 0.8248166333272716,
+        "macro_recall": 0.8153776877181133,
+        "macro_precision": 0.8444180917585173,
+        "distinct_predictions": 9,
+        "most_common_prediction": "biological"
+      },
+      "product-category": {
+        "correct": 107,
+        "samples": 122,
+        "accuracy": 0.8770491803278688,
+        "macro_f1": 0.787200656240904,
+        "macro_recall": 0.7942592592592593,
+        "macro_precision": 0.8002959418748893,
+        "distinct_predictions": 14,
+        "most_common_prediction": "meat, egg and dairy products"
+      },
+      "hazard": {
+        "correct": 81,
+        "samples": 122,
+        "accuracy": 0.6639344262295082,
+        "macro_f1": 0.21772686191181279,
+        "macro_recall": 0.259277950310559,
+        "macro_precision": 0.20025017253278124,
+        "distinct_predictions": 17,
+        "most_common_prediction": "listeria monocytogenes"
+      },
+      "product": {
+        "correct": 0,
+        "samples": 122,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "macro_recall": 0.0,
+        "macro_precision": 0.0,
+        "distinct_predictions": 1,
+        "most_common_prediction": "ground turmeric"
+      }
+    },
+    "ST1": {
+      "score": 0.8016411208964401,
+      "hazard_macro_f1": 0.8248166333272716,
+      "product_macro_f1_given_correct_hazard": 0.7784656084656086,
+      "correct_hazard_samples": 114,
+      "samples": 122
+    },
+    "ST2": {
+      "score": 0.10886343095590639,
+      "hazard_macro_f1": 0.21772686191181279,
+      "product_macro_f1_given_correct_hazard": 0.0,
+      "correct_hazard_samples": 81,
+      "samples": 122
+    },
+    "all_four_correct": 0
+  },
+  "paired_gemini": {
+    "samples": 122,
+    "total_samples": 565,
+    "targets": {
+      "hazard-category": {
+        "correct": 114,
+        "samples": 122,
+        "accuracy": 0.9344262295081968,
+        "macro_f1": 0.8248166333272717,
+        "macro_recall": 0.8153776877181133,
+        "macro_precision": 0.8814551287955543,
+        "distinct_predictions": 9,
+        "most_common_prediction": "biological"
+      },
+      "product-category": {
+        "correct": 108,
+        "samples": 122,
+        "accuracy": 0.8852459016393442,
+        "macro_f1": 0.8096308564783204,
+        "macro_recall": 0.8392592592592594,
+        "macro_precision": 0.8050155400155401,
+        "distinct_predictions": 15,
+        "most_common_prediction": "meat, egg and dairy products"
+      },
+      "hazard": {
+        "correct": 90,
+        "samples": 122,
+        "accuracy": 0.7377049180327869,
+        "macro_f1": 0.3571410810701092,
+        "macro_recall": 0.39266304347826086,
+        "macro_precision": 0.35033212560386473,
+        "distinct_predictions": 24,
+        "most_common_prediction": "listeria monocytogenes"
+      },
+      "product": {
+        "correct": 0,
+        "samples": 122,
+        "accuracy": 0.0,
+        "macro_f1": 0.0,
+        "macro_recall": 0.0,
+        "macro_precision": 0.0,
+        "distinct_predictions": 5,
+        "most_common_prediction": "mixed salad"
+      }
+    },
+    "ST1": {
+      "score": 0.8132644259751228,
+      "hazard_macro_f1": 0.8248166333272717,
+      "product_macro_f1_given_correct_hazard": 0.8017122186229739,
+      "correct_hazard_samples": 114,
+      "samples": 122
+    },
+    "ST2": {
+      "score": 0.1785705405350546,
+      "hazard_macro_f1": 0.3571410810701092,
+      "product_macro_f1_given_correct_hazard": 0.0,
+      "correct_hazard_samples": 90,
+      "samples": 122
+    },
+    "all_four_correct": 0
+  },
+  "changes": {
+    "hazard-category": {
+      "fixed_by_gemini": 1,
+      "broken_by_gemini": 1
+    },
+    "product-category": {
+      "fixed_by_gemini": 3,
+      "broken_by_gemini": 2
+    },
+    "hazard": {
+      "fixed_by_gemini": 10,
+      "broken_by_gemini": 1
+    },
+    "product": {
+      "fixed_by_gemini": 0,
+      "broken_by_gemini": 0
+    }
+  },
+  "audit": {
+    "saved_responses": 491,
+    "parse_methods": {
+      "exact": 468,
+      "bert_fallback": 20,
+      "fuzzy": 3
+    }
+  },
+  "candidate_recall": {
+    "hazard-category": 0.9628318584070796,
+    "product-category": 0.8778761061946903,
+    "hazard": 0.815929203539823,
+    "product": 0.0
+  },
+  "candidate_samples": 565,
+  "test_report": null
+}

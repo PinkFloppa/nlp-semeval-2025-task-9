@@ -1,0 +1,79 @@
+{
+  "models": {
+    "hazard-category": {
+      "run": "501ae07026ab6e3ec592301bc177ed17214fdc3c28ad7b4b803b5dca8cd21aa8",
+      "complete": {
+        "task": "hazard-category",
+        "metrics": {
+          "train_runtime": 2314.888,
+          "train_samples_per_second": 25.887,
+          "train_steps_per_second": 1.62,
+          "total_flos": 1.5701289174357024e+16,
+          "train_loss": 0.00618324967995286,
+          "epoch": 5.0
+        },
+        "best_checkpoint": "/content/drive/MyDrive/semeval_task9/baseline_v1/models/hazard-category/checkpoints/checkpoint-3250",
+        "smoke": false,
+        "global_step": 3750
+      }
+    },
+    "product-category": {
+      "run": "3abe871055920e1bb80444074b8912a6906d38fa66220635851b61ea953b32f1",
+      "complete": {
+        "task": "product-category",
+        "metrics": {
+          "train_runtime": 1701.2933,
+          "train_samples_per_second": 35.223,
+          "train_steps_per_second": 2.204,
+          "total_flos": 1.151624318296608e+16,
+          "train_loss": 0.011812912787903439,
+          "epoch": 3.66711140760507
+        },
+        "best_checkpoint": "/content/drive/MyDrive/semeval_task9/baseline_v1/models/product-category/checkpoints/checkpoint-2250",
+        "smoke": false,
+        "global_step": 2750
+      }
+    },
+    "hazard": {
+      "run": "afad06e05a1f155625976e0b85c0e6c661ce9786caa9d694fc67380e0c47fe23",
+      "complete": {
+        "task": "hazard",
+        "metrics": {
+          "train_runtime": 2311.0098,
+          "train_samples_per_second": 25.93,
+          "train_steps_per_second": 1.623,
+          "total_flos": 1.5717923093280768e+16,
+          "train_loss": 0.008488684971133868,
+          "epoch": 5.0
+        },
+        "best_checkpoint": "/content/drive/MyDrive/semeval_task9/baseline_v1/models/hazard/checkpoints/checkpoint-3750",
+        "smoke": false,
+        "global_step": 3750
+      }
+    },
+    "product": {
+      "run": "667b97c71cb9db0474085c95864a1005d39441e20fcbf6aabed15c9d48e3ba00",
+      "complete": {
+        "task": "product",
+        "metrics": {
+          "train_runtime": 469.4941,
+          "train_samples_per_second": 127.637,
+          "train_steps_per_second": 7.987,
+          "total_flos": 3168810808342560.0,
+          "train_loss": 0.03990377423663934,
+          "epoch": 1.0
+        },
+        "best_checkpoint": "/content/drive/MyDrive/semeval_task9/baseline_v1/models/product/checkpoints/checkpoint-250",
+        "smoke": false,
+        "global_step": 750
+      }
+    }
+  },
+  "settings": {
+    "threshold": 0.5,
+    "top_k": 5,
+    "max_candidates": 20,
+    "st1_all_labels": false
+  },
+  "data_sha256": "841a4711067cf91bd8c85a6fbeb33e3d4220208fb0d2dfc625850178d0f6de51"
+}

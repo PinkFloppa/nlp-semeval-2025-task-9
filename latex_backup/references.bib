@@ -1,0 +1,183 @@
+@inproceedings{randl-etal-2025-semeval,
+    title = "{S}em{E}val-2025 Task 9: The Food Hazard Detection Challenge",
+    author = "Randl, Korbinian  and
+      Pavlopoulos, John  and
+      Henriksson, Aron  and
+      Lindgren, Tony  and
+      Bakagianni, Juli",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th {I}nternational {W}orkshop on {S}emantic {E}valuation ({S}em{E}val-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.325/",
+    pages = "2523--2534",
+    ISBN = "979-8-89176-273-2",
+    abstract = "In this challenge, we explored text-based food hazard prediction with long tail distributed classes. The task was divided into two subtasks: (1) predicting whether a web text implies one of ten food-hazard categories and identifying the associated food category, and (2) providing a more fine-grained classification by assigning a specific label to both the hazard and the product. Our findings highlight that large language model-generated synthetic data can be highly effective for oversampling long-tail distributions. Furthermore, we find that fine-tuned encoder-only, encoder-decoder, and decoder-only systems achieve comparable maximum performance across both subtasks. During this challenge, we are gradually releasing (under CC BY-NC-SA 4.0) a novel set of 6,644 manually labeled food-incident reports."
+}
+
+@inproceedings{randl-etal-2024-cicle,
+    title = "{CICL}e: Conformal In-Context Learning for Largescale Multi-Class Food Risk Classification",
+    author = "Randl, Korbinian  and
+      Pavlopoulos, John  and
+      Henriksson, Aron  and
+      Lindgren, Tony",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.459/",
+    doi = "10.18653/v1/2024.findings-acl.459",
+    pages = "7695--7715",
+    abstract = "Contaminated or adulterated food poses a substantial risk to human health. Given sets of labeled web texts for training, Machine Learning and Natural Language Processing can be applied to automatically detect such risks. We publish a dataset of 7,546 short texts describing public food recall announcements. Each text is manually labeled, on two granularity levels (coarse and fine), for food products and hazards that the recall corresponds to. We describe the dataset and benchmark naive, traditional, and Transformer models. Based on our analysis, Logistic Regression based on a TF-IDF representation outperforms RoBERTa and XLM-R on classes with low support. Finally, we discuss different prompting strategies and present an LLM-in-the-loop framework, based on Conformal Prediction, which boosts the performance of the base classifier while reducing energy consumption compared to normal prompting."
+}
+
+@inproceedings{wan-etal-2025-pateam,
+    title = "{PAT}eam at {S}em{E}val-2025 Task 9: {LLM}-Augmented Fusion for {AI}-Driven Food Safety Hazard Detection",
+    author = "Wan, Xue  and
+      Su, Fengping  and
+      Sun, Ling  and
+      Lin, Yuyang  and
+      Chen, Pengfei",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th {I}nternational {W}orkshop on {S}emantic {E}valuation ({S}em{E}val-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.249/",
+    pages = "1912--1918",
+    ISBN = "979-8-89176-273-2",
+    abstract = "This paper introduces the approach we adopted for the SemEval-2025 ``Food Hazard Detection'' task, which aims to predict coarse-grained categories (such as ``product category'' and ``hazard category'') and fine-grained vectors (such as specific products like ``ice cream'' or hazards like ``salmonella'') from noisy, long-tailed text data.To address the issues of dirty data, as well as the severe long-tail distribution of text labels and length in the data, we proposed a pipeline system. This system combines data cleaning, LLM-based enhancement, label resampling, and ensemble learning to tackle data sparsity and label imbalance problems.The two subtasks have strong semantic relatedness. By integrating them into a unified multiturn dialogue framework, we fine-tuned five models using a bagging approach. Ultimately, we achieved good results in both subtasks, ranking 5th (with an F1 score of 80.17{\%} for ST1 and 52.66{\%} for ST2)."
+}
+
+@inproceedings{zhang-etal-2025-srcb,
+    title = "{SRCB} at {S}em{E}val-2025 Task 9: {LLM} Finetuning Approach based on External Attention Mechanism in The Food Hazard Detection",
+    author = "Zhang, Yuming  and
+      Li, Hongyu  and
+      Zhang, Yongwei  and
+      Jiang, Shanshan  and
+      Dong, Bin",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th {I}nternational {W}orkshop on {S}emantic {E}valuation ({S}em{E}val-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.132/",
+    pages = "996--1003",
+    ISBN = "979-8-89176-273-2",
+    abstract = "This paper reports on the performance of SRCB{'}s system in SemEval-2025 Task 9: The Food Hazard Detection Challenge. We develop a system in the form of a pipeline consisting of two parts: 1. Candidate Recall Module, which selects the most probable correct labels from a large number of labels based on BERT model; 2. LLM Prediction Module, which is used to generate the final prediction based on Large Language Models(LLM). Additionally, to address the issue of long prompts caused by an excessive number of labels, we propose a model architecture to reduce resource consumption and improve performance. Our submission achieves the macro-F1 score of 80.39 on Sub-Task 1 and the macro-F1 score of 54.73 on Sub-Task 2. Our system is released at \url{https://github.com/Doraxgui/Document_Attention}"
+}
+
+@inproceedings{le-etal-2025-anastasia,
+    title = "Anastasia at {S}em{E}val-2025 Task 9: Subtask 1, Ensemble Learning with Data Augmentation and Focal Loss for Food Risk Classification.",
+    author = "Le, Tung Thanh  and
+      Ngo, Tri Minh  and
+      Dang, Trung Hieu",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th {I}nternational {W}orkshop on {S}emantic {E}valuation ({S}em{E}val-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.20/",
+    pages = "141--147",
+    ISBN = "979-8-89176-273-2",
+    abstract = "Our approach for the SemEval-2025 Task 9: Subtask 1, The Food Hazard Detection Challenge showcases a robust ensemble learning methodology designed to classify food hazards and associated products from incident report titles. By incorporating advanced data augmentation techniques, we significantly enhanced model generalization and addressed class imbalance through the application of focal loss. This strategic combination led to our team securing the Top 1 position, achieving an impressive score of 0.8223, underscoring the strength of our solution in improving classification performance for food safety risk assessment."
+}
+
+@inproceedings{phan-chiang-2025-mymy,
+    title = "{M}y{M}y at {S}em{E}val-2025 Task 9: A Robust Knowledge-Augmented Data Approach for Reliable Food Hazard Detection",
+    author = "Phan, Ben  and
+      Chiang, Jung-Hsien",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th {I}nternational {W}orkshop on {S}emantic {E}valuation ({S}em{E}val-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.112/",
+    pages = "812--822",
+    ISBN = "979-8-89176-273-2",
+    abstract = "The Food Hazard Detection (SemEval-2025 Task 9) advances explainable classification of food-incident reports collected from web sources, including social media and regulatory agency websites, to support timely risk mitigation for public health and the economy. This task is complicated by a highly imbalanced, long-tail label distribution and the need for transparent, reliable AI. We present a robust Knowledge-Augmented Data approach that integrates Retrieval-Augmented Generation (RAG) with domain-specific knowledge from the PubMed API to enrich and balance the training data. Our method leverages domain-specific knowledge to expand datasets and curate high-quality data that enhances overall data integrity. We hypothesize that Knowledge-Augmented Data improves Macro-F1 scores, the primary evaluation metric. Our approach achieved a top-2 ranking across both subtasks, demonstrating its effectiveness in advancing NLP applications for food safety and contributing to more reliable food hazard detection."
+}
+
+@dataset{randl_2025_15007331,
+  author       = {Randl, Korbinian and
+                  Pavlopoulos, John and
+                  Lindgren, Tony and
+                  Henriksson, Aron and
+                  Stoitsis, Giannis},
+  title        = {Food Recall Incidents},
+  month        = mar,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v3},
+  doi          = {10.5281/zenodo.15007331},
+  url          = {https://doi.org/10.5281/zenodo.15007331},
+}
+
+@inproceedings{pant2024web,
+  title={Web scraping using beautiful soup},
+  author={Pant, Sakshi and Yadav, Er Narinder and Sharma, Monnie and Bedi, Yash and Raturi, Anshuman and others},
+  booktitle={2024 international conference on knowledge engineering and communication systems (ICKECS)},
+  volume={1},
+  pages={1--6},
+  year={2024},
+  organization={IEEE}
+}
+
+@inproceedings{lin2017focal,
+  title={Focal loss for dense object detection},
+  author={Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\'a}r, Piotr},
+  booktitle={Proceedings of the IEEE international conference on computer vision},
+  pages={2980--2988},
+  year={2017}
+}
+
+@article{breiman1996bagging,
+  title={Bagging predictors},
+  author={Breiman, Leo},
+  journal={Machine learning},
+  volume={24},
+  number={2},
+  pages={123--140},
+  year={1996},
+  publisher={Springer}
+}
+
+@article{hu2021lora,
+  title={Lora: Low-rank adaptation of large language models},
+  author={Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  journal={arXiv preprint arXiv:2106.09685},
+  year={2021}
+}
+
+@inproceedings{wei2019eda,
+  title={EDA: Easy data augmentation techniques for boosting performance on text classification tasks},
+  author={Wei, Jason and Zou, Kai},
+  booktitle={Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP)},
+  pages={6382--6388},
+  year={2019}
+}

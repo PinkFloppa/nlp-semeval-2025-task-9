@@ -1,0 +1,86 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovak]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{mathptmx}        % Times New Roman
+\usepackage{setspace}        % riadkovanie
+\setstretch{1.0}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{comment}
+
+\usepackage[numbers,sort&compress]{natbib}
+
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries\fontsize{14}{17}\selectfont}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\fontsize{12}{15}\selectfont}{\thesubsection}{1em}{}
+\geometry{
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=2.5cm
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{gray}{Projekt}}
+\fancyhead[R]{\small\textcolor{gray}{Spracovanie prirodzeného jazyka}}
+\renewcommand{\headrulewidth}{0.2pt}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+
+    % Vrchná časť
+    {\Large \textbf{Technická univerzita v Košiciach}}\\[0.4em]
+    {\large Fakulta elektrotechniky a informatiky}\\
+
+    \vfill
+
+    % Stred
+    {\Large \textbf{Spracovanie prirodzeného jazyka}}\\[0.4em]
+    {\large SemEval 2025 Task 9: The Food Hazard Detection Challenge \\[0.6em] Etapa I.}\\
+
+    \vfill
+
+    % Spodná časť – ľavá strana autori, pravá strana rok
+    \begin{minipage}[t]{0.5\textwidth}
+        \raggedright
+        \textbf{Spracovali:}\\
+        Ján Schmiedbauer\\
+        Patrik Sedlák\\
+        Anastasiia Kolisnyk
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \raggedleft
+        \textbf{Akad. rok:} 2026/2027
+    \end{minipage}
+
+\end{titlepage}
+
+\setcounter{page}{1}
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+
+\pagestyle{fancy}
+\fancyfoot[C]{\thepage}
+
+\input{chapter1}
+\input{chapter2}
+\input{chapter3}
+\input{chapter4}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
