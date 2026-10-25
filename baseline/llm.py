@@ -30,12 +30,14 @@ def requests_per_minute(settings):
     value = float(os.environ.get("GEMINI_REQUESTS_PER_MINUTE", settings["requests_per_minute"]))
     if not math.isfinite(value) or value <= 0:
         raise ValueError("GEMINI_REQUESTS_PER_MINUTE must be a positive finite number")
-    return value
+    # Hard cap independent of uploaded config or a higher environment override.
+    return min(5.0, value)
 
 
 def wait_for_api_slot(settings):
     global _last_api_request
-    interval = 60 / requests_per_minute(settings)
+    # One second of margin avoids a sixth start on a 60-second boundary.
+    interval = 60 / requests_per_minute(settings) + 1
     if _last_api_request is not None:
         remaining = interval - (time.monotonic() - _last_api_request)
         if remaining > 0:

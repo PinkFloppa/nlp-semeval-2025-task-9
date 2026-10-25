@@ -27,7 +27,7 @@ def test_rate_limit_includes_retries_and_honors_retry_after(monkeypatch):
     monkeypatch.setattr(llm.urllib.request, "urlopen", fake_urlopen)
     assert llm.generate("prompt", settings, "test-key")[0] == "milk"
     assert llm.generate("next prompt", settings, "test-key")[0] == "milk"
-    assert starts == pytest.approx([0, 70, 77.5])
+    assert starts == pytest.approx([0, 70, 83])
     assert settings["requests_per_minute"] == 10  # cache identity stays unchanged
 
 
@@ -36,3 +36,17 @@ def test_invalid_rate_override(monkeypatch, value):
     monkeypatch.setenv("GEMINI_REQUESTS_PER_MINUTE", value)
     with pytest.raises(ValueError):
         llm.requests_per_minute({"requests_per_minute": 10})
+
+
+def test_hard_cap_allows_at_most_five_attempts_in_any_minute(monkeypatch):
+    clock = [0.0]
+    starts = []
+    monkeypatch.setattr(llm, "_last_api_request", None)
+    monkeypatch.setenv("GEMINI_REQUESTS_PER_MINUTE", "100")
+    monkeypatch.setattr(llm.time, "monotonic", lambda: clock[0])
+    monkeypatch.setattr(llm.time, "sleep", lambda seconds: clock.__setitem__(0, clock[0] + seconds))
+    for _ in range(20):
+        llm.wait_for_api_slot({"requests_per_minute": 100})
+        starts.append(clock[0])
+    assert starts == pytest.approx([13 * i for i in range(20)])
+    assert all(sum(start <= value <= start + 60 for value in starts) <= 5 for start in starts)

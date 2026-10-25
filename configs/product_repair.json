@@ -1,0 +1,60 @@
+{
+  "dataset": "dataset/food_recall_incidents.csv",
+  "run_dir": "artifacts/baseline",
+  "seed": 42,
+  "eda": {
+    "target_count": 10,
+    "change_rate": 0.1,
+    "max_attempts_per_sample": 30
+  },
+  "training": {
+    "model_name": "FacebookAI/roberta-base",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "max_length": 512,
+    "batch_size": 8,
+    "eval_batch_size": 16,
+    "gradient_accumulation_steps": 2,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "epochs": 5,
+    "patience": 2,
+    "save_steps": 250,
+    "fp16": true,
+    "gradient_checkpointing": true,
+    "focal_gamma": 2.0,
+    "focal_alpha": 0.25
+  },
+  "candidates": {
+    "threshold": 0.5,
+    "top_k": 5,
+    "max_candidates": 20,
+    "st1_all_labels": false
+  },
+  "llm": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.0,
+    "max_output_tokens": 128,
+    "max_text_chars": 50000,
+    "requests_per_minute": 10,
+    "max_retries": 4,
+    "fuzzy_threshold": 0.9,
+    "thinking_budget": null,
+    "thinking_level": "minimal"
+  },
+  "model_dirs": {
+    "product": "models/product_v2"
+  },
+  "predictions_dir": "predictions/product_v2",
+  "training_overrides": {
+    "product": {
+      "focal_reduction": "balanced",
+      "focal_alpha": 0.5,
+      "learning_rate": 2e-05,
+      "eval_strategy": "epoch",
+      "patience": 3,
+      "metric_for_best_model": "recall_at_5",
+      "fail_on_collapse": true
+    }
+  }
+}

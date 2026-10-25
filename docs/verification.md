@@ -46,3 +46,13 @@ buniek. Notebook obsahuje krátku GPU kontrolu aj plné tréningové a vyhodnoco
 
 Skóre sa nesmie odvodzovať z malých testovacích modelov ani jednej API ukážky.
 Po plnom behu doplňte reálne výsledky, candidate recall, počet fallbackov a časy do správy.
+
+## Následná oprava produktu
+
+Po získaní validačných predikcií bol potvrdený kolaps produktu na `ground turmeric`
+vo všetkých 565 vzorkách. Oprava a jej dôkazy sú v `docs/product_repair.md`.
+Aktuálna kompletná sada má **30 úspešných testov**, vrátane vyváženej binárnej focal
+loss, izolovaného nastavenia iba produktu, krátkeho BERT tréningu s 1 022 výstupmi,
+kontroly konštantných predikcií a zachovania starého modelu. Kódové bunky oboch
+Colab notebookov prešli syntaktickou kontrolou. Nové reálne validačné skóre produktu
+sa ešte musí získať plným tréningom v opravnom Colab notebooku.

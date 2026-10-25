@@ -4,9 +4,10 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 target = root / "baseline_colab.zip"
-paths = [root / "pyproject.toml", root / "README.md", root / "configs" / "baseline.json",
+paths = [root / "pyproject.toml", root / "README.md",
          root / ".gitignore", root / ".env", root / "dataset" / "food_recall_incidents.csv",
-         root / "notebooks" / "baseline_colab.ipynb"]
+         root / "notebooks" / "baseline_colab.ipynb", root / "notebooks" / "repair_product_colab.ipynb"]
+paths += sorted((root / "configs").glob("*.json"))
 paths += sorted((root / "baseline").glob("*.py"))
 paths += sorted((root / "docs").glob("*.md"))
 paths += sorted((root / "scripts").glob("*.py"))

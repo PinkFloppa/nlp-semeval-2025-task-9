@@ -12,7 +12,20 @@ from baseline import TASKS
 from baseline.candidates import candidate_report, select_candidates
 from baseline.data import load_split
 from baseline.io import file_hash, fingerprint, read_json, write_json, write_jsonl
-from baseline.model import FocalTrainer, TextDataset, compute_metrics
+from baseline.model import FocalTrainer, TextDataset, compute_metrics, prediction_health
+
+
+def task_settings(config, task):
+    return {**config["training"], **config.get("training_overrides", {}).get(task, {})}
+
+
+def model_directory(config, task, smoke=False):
+    root = Path(config["run_dir"]).resolve()
+    relative = Path("smoke_models") / task if smoke else Path(config.get("model_dirs", {}).get(task, f"models/{task}"))
+    destination = (root / relative).resolve()
+    if not destination.is_relative_to(root):
+        raise ValueError("Model directory must stay inside run_dir")
+    return destination
 
 
 def environment():
@@ -28,16 +41,20 @@ def train(config, task, resume=False, smoke=False):
         raise ValueError(task)
     set_seed(config["seed"])
     root = Path(config["run_dir"])
-    settings = config["training"]
+    settings = task_settings(config, task)
     if not smoke and not torch.cuda.is_available():
         raise RuntimeError("No GPU found. Select the SEMEVAL_T4 Colab kernel. CPU is allowed only with --smoke.")
     train_rows = load_split(config, "training", augmented=True)
     validation_rows = load_split(config, "validation")
     labels = read_json(root / "data" / "labels.json")[task]
-    destination = root / ("smoke_models" if smoke else "models") / task
+    if len(labels) != len(set(labels)) or any(r[task] not in set(labels) for r in train_rows):
+        raise ValueError("Training labels do not match the classifier vocabulary")
+    destination = model_directory(config, task, smoke)
     spec = {"training": settings, "seed": config["seed"], "labels": labels, "smoke": smoke,
             "data_sha256": file_hash(root / "data" / "training_augmented.jsonl"),
             "validation_sha256": file_hash(root / "data" / "validation.jsonl")}
+    if settings.get("focal_reduction") == "balanced":
+        spec["focal_implementation_version"] = 1
     spec["fingerprint"] = fingerprint(spec)
     if (destination / "run.json").exists():
         previous = read_json(destination / "run.json")
@@ -57,6 +74,11 @@ def train(config, task, resume=False, smoke=False):
     write_json(destination / "config.json.snapshot", config)
     if smoke:
         train_rows, validation_rows = train_rows[:16], validation_rows[:8]
+    strategy = "steps" if smoke else settings.get("eval_strategy", "steps")
+    metric = settings.get("metric_for_best_model", "macro_f1")
+    print(f"Training {task}: {len(train_rows)} samples, {len(labels)} labels; "
+          f"focal reduction={settings.get('focal_reduction', 'mean')}, alpha={settings['focal_alpha']}; "
+          f"best checkpoint by {metric}, evaluation={strategy}", flush=True)
     args = TrainingArguments(output_dir=str(destination / "checkpoints"),
         num_train_epochs=settings["epochs"], max_steps=2 if smoke else -1,
         per_device_train_batch_size=min(2, settings["batch_size"]) if smoke else settings["batch_size"],
@@ -66,9 +88,9 @@ def train(config, task, resume=False, smoke=False):
         warmup_ratio=settings["warmup_ratio"], optim="adamw_torch",
         fp16=settings["fp16"] and torch.cuda.is_available(),
         gradient_checkpointing=settings["gradient_checkpointing"],
-        eval_strategy="steps", save_strategy="steps", eval_steps=1 if smoke else settings["save_steps"],
+        eval_strategy=strategy, save_strategy=strategy, eval_steps=1 if smoke else settings["save_steps"],
         save_steps=1 if smoke else settings["save_steps"], save_total_limit=2,
-        load_best_model_at_end=True, metric_for_best_model="macro_f1", greater_is_better=True,
+        load_best_model_at_end=True, metric_for_best_model=metric, greater_is_better=True,
         logging_steps=1 if smoke else 25, report_to="none", seed=config["seed"], data_seed=config["seed"],
         dataloader_num_workers=0, dataloader_pin_memory=torch.cuda.is_available(),
         save_safetensors=True)
@@ -80,15 +102,26 @@ def train(config, task, resume=False, smoke=False):
         compute_metrics=lambda evaluation: compute_metrics(evaluation,
             true_labels=[r[task] for r in validation_rows], labels=labels),
         focal_alpha=settings["focal_alpha"], focal_gamma=settings["focal_gamma"],
+        focal_reduction=settings.get("focal_reduction", "mean"),
         callbacks=[EarlyStoppingCallback(early_stopping_patience=settings["patience"])])
     checkpoint = get_last_checkpoint(str(destination / "checkpoints")) if resume and (destination / "checkpoints").exists() else None
     outcome = trainer.train(resume_from_checkpoint=checkpoint)
     trainer.save_model(str(destination / "final"))
     tokenizer.save_pretrained(destination / "final")
     write_json(destination / "history.json", trainer.state.log_history)
+    prediction = trainer.predict(trainer.eval_dataset)
+    logits = prediction.predictions[0] if isinstance(prediction.predictions, tuple) else prediction.predictions
+    health = prediction_health(logits, [r[task] for r in validation_rows], labels, config["candidates"])
+    write_json(destination / "validation_health.json", health)
+    if settings.get("fail_on_collapse", False) and not smoke and not health["healthy"]:
+        write_json(destination / "failed.json", {"reason": "validation_collapse", "health": health})
+        raise RuntimeError(f"{task} still collapses on validation. See {destination / 'validation_health.json'}. "
+                           "No complete marker was written; do not send these candidates to Gemini.")
     summary = {"task": task, "metrics": outcome.metrics, "best_checkpoint": trainer.state.best_model_checkpoint,
-               "smoke": smoke, "global_step": trainer.state.global_step}
+               "smoke": smoke, "global_step": trainer.state.global_step, "validation_health": health}
     write_json(destination / "complete.json", summary)
+    if (destination / "failed.json").exists():
+        (destination / "failed.json").unlink()
     del trainer, model
     gc.collect()
     if torch.cuda.is_available():
@@ -103,14 +136,14 @@ def predict(config, split, limit=None):
         if limit < 1:
             raise ValueError("Limit must be positive")
         rows = rows[:limit]
-    settings = config["training"]
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # Prediction records deliberately exclude all gold labels.
     records = [{"id": r["id"], "title": r["title"], "text": r["text"], "candidates": {}} for r in rows]
     argmax = [{"id": r["id"]} for r in rows]
     reports, sources = {}, {}
     for task in TASKS:
-        model_root = root / "models" / task
+        model_root = model_directory(config, task)
+        settings = task_settings(config, task)
         if not (model_root / "complete.json").exists():
             raise ValueError(f"Train {task} before prediction")
         tokenizer = AutoTokenizer.from_pretrained(model_root / "final")
@@ -136,7 +169,7 @@ def predict(config, split, limit=None):
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
     tag = f"{split}.pilot-{limit}" if limit else split
-    output = root / "predictions" / tag
+    output = root / config.get("predictions_dir", "predictions") / tag
     write_jsonl(str(output) + ".candidates.jsonl", records)
     write_jsonl(str(output) + ".bert.jsonl", argmax)
     write_json(str(output) + ".candidate_report.json", reports)

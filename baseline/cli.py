@@ -14,6 +14,8 @@ def main():
     sub.add_parser("prepare")
     sub.add_parser("augment")
     sub.add_parser("gemini-models")
+    diagnosis = sub.add_parser("diagnose-product")
+    diagnosis.add_argument("--predictions-dir", help="Optional downloaded prediction directory")
     training = sub.add_parser("train")
     training.add_argument("--task", choices=[*TASKS, "all"], default="all")
     training.add_argument("--resume", action="store_true")
@@ -51,6 +53,9 @@ def main():
     elif args.command == "gemini-models":
         from baseline.llm import models
         result = models()
+    elif args.command == "diagnose-product":
+        from baseline.diagnostics import diagnose_product
+        result = diagnose_product(config, args.predictions_dir)
     else:
         from baseline.metrics import evaluate
         result = evaluate(config, args.split, args.predictions, args.allow_partial)

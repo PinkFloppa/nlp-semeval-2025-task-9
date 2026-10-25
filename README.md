@@ -57,6 +57,18 @@ z `data/augmentation.json`. Porovnajte skóre s referenčnými systémami, opí�
 a obmedzenie nevidených produktových tried. Uchovajte priečinok `models` aj výsledky
 na Drive; po ukončení práce môžete Colab odpojiť.
 
+## Oprava produktového klasifikátora
+
+Ak `product` predikuje konštantne jeden produkt, použite
+[`notebooks/repair_product_colab.ipynb`](notebooks/repair_product_colab.ipynb).
+Má tri kroky: diagnostika pôvodného behu, tréning iba produktu a validačné overenie
+bez Gemini. Nový model ukladá do `models/product_v2`; ostatné tri modely a pôvodný
+produkt nemení. Podrobnosti a dôkazy sú v [`docs/product_repair.md`](docs/product_repair.md).
+
+Opravná konfigurácia zachováva binárnu focal loss, ale vyvažuje pozitívne a negatívne
+výstupy, vyhodnocuje celé epochy a vyberá checkpoint podľa recall@5. Pre tento beh
+používajte `run_repair`, ktorý sa definuje v opravnom notebooku.
+
 ## Lokálne spustenie
 
 ```powershell
@@ -110,11 +122,13 @@ Po uzamknutí nastavení spustite `predict --split test`, `llm` nad testovacími
 kandidátmi a `evaluate --split test`. Test sa nepoužíva na tréning, early stopping ani
 výber prahov. Samotná príprava dát z neho vytvorí iba audit počtov/neznámych tried.
 
-Gemini má predvolene obmedzenie 10 požiadaviek/minútu, nastaviteľné podľa kvóty účtu.
+Gemini má pevný horný limit 5 HTTP pokusov/minútu s odstupom aspoň 13 sekúnd.
+Hodnota `requests_per_minute: 10` zostáva v pôvodnej konfigurácii kvôli kompatibilite
+s existujúcou cache; runtime ju obmedzí na 5.
 Obmedzenie platí aj pre HTTP pokusy opakované po chybe. Pri HTTP 429 čaká aspoň
 60 sekúnd pred ďalším pokusom (alebo dlhšie podľa `Retry-After`). Na spomalenie
 bez zneplatnenia existujúcej cache použite premennú prostredia
-`GEMINI_REQUESTS_PER_MINUTE=8`, nie zmenu existujúcej konfigurácie experimentu.
+`GEMINI_REQUESTS_PER_MINUTE=5` (alebo nižšiu), nie zmenu existujúcej konfigurácie experimentu.
 Každá vzorka používa štyri požiadavky (validácia 2 260, test 3 988). Pilot tvorí časť
 validácie. Cache zohľadňuje celý prompt, model aj nastavenia; zmenený experiment
 nevydáva staré odpovede za nové. API chyby zastavia beh a zachovajú hotové výsledky.

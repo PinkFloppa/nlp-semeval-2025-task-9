@@ -31,3 +31,9 @@ vylúčené z Gitu. Notebook bol zjednodušený na štyri očíslované kroky:
 prostredie, tréning, validácia, finálny test. Kľúč načítava bez vypísania hodnoty.
 
 Stav skutočných kontrol a meraní: pozri `docs/verification.md`.
+
+Následný používateľský prompt požadoval diagnostiku konštantnej produktovej predikcie
+a opravu s opätovným tréningom v Colabe. Výstupom je `docs/product_repair.md`,
+vyvážená redukcia binárnej focal loss a samostatný opravný notebook. Diagnostika
+rozlišuje pozorované zlyhanie, kontrolovaný gradientový výpočet a zatiaľ nenameraný
+výsledok plného opraveného tréningu. Ostatné tri modely ostávajú zachované.
